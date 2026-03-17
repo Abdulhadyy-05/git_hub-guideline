@@ -1,5 +1,5 @@
-step no 1: 
-we will pull main "git pull origin main"
+step no 1:   
+we will pull main "git pull origin main"  
 step no 2:
 we ll make new branch "git checkout -b branch_name"
 step no 3:
