@@ -1,4 +1,4 @@
-# step no 1:   
+## step no 1:   
 we will pull main "git pull origin main" 
 
 # step no 2:  
