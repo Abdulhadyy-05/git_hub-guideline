@@ -98,12 +98,3 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/username/todo-app.git  
 git branch -M main  
 git push -u origin main  
-
-## step no 3:  
-we wll add file "git add ."  
-
-## step no 4:  
-we'll coomit like send message "git commit -m "message" "  
-
-## step no 5:  
-we ll push the branch "git push origin branch_name"  
