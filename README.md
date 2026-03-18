@@ -33,27 +33,71 @@ Go to Pull requests → New pull request
 
 Click:
 
-Create pull request  
+Create pull request    
 
-✅ Good Practices (Very Important)
-
-✔ Always use a separate branch
-✔ Write a clear title and description
-✔ Keep PR focused on one feature or fix
-✔ Pull latest changes before working:
-
-git pull origin main
-🔁 Full Workflow Summary
-git pull origin main
-git checkout -b feature-name
-git add .
-git commit -m "your changes"
-git push origin feature-name
+git pull origin main  
+🔁 Full Workflow Summary  
+git pull origin main  
+git checkout -b feature-name  
+git add .  
+git commit -m "your changes"  
+git push origin feature-name  
 
 
 
-## step no 2:  
-we ll make new branch "git checkout -b branch_name" 
+## proper repositries:  
+Step-by-Step  
+1️⃣ Create repository on GitHub  
+
+Go to GitHub  
+
+Click New repository  
+
+Enter name (e.g. todo-app)  
+
+Click Create repository  
+
+2️⃣ Create project folder in terminal  
+mkdir todo-app  
+cd todo-app  
+3️⃣ Initialize Git  
+git init  
+4️⃣ Create files  
+touch README.md app.js .gitignore  
+5️⃣ Add code (optional)  
+
+Open files and write your project code.  
+
+6️⃣ Add files to Git  
+git add .  
+7️⃣ Commit your project  
+git commit -m "Initial commit"  
+8️⃣ Connect to GitHub repo  
+
+Copy URL from GitHub and run:  
+  
+git remote add origin https://github.com/username/todo-app.git  
+9️⃣ Push your project  
+git branch -M main  
+git push -u origin main  
+✅ Done!  
+
+Now your repository is:
+
+Created
+
+Organized  
+
+⚡ Full Command (Quick Version)  
+mkdir todo-app  
+cd todo-app   
+git init  
+touch README.md app.js .gitignore  
+git add .  
+git commit -m "Initial commit"  
+git remote add origin https://github.com/username/todo-app.git  
+git branch -M main  
+git push -u origin main  
 
 ## step no 3:  
 we wll add file "git add ."  
